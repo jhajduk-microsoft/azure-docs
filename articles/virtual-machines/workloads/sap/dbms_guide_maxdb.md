@@ -316,6 +316,8 @@ It is highly recommended to use the newest version of the operating system Micro
 ### Available SAP MaxDB Documentation for MaxDB
 You can find the updated list of SAP MaxDB documentation in the following SAP Note [767598]
 
+See SAP technical blog post for [HA scenarios for SAP on MaxDB](https://blogs.sap.com/2020/04/11/sap-on-azure-high-availability-setup-of-sap-content-server-7.53-with-maxdb-in-windows-environment/)
+
 ### SAP MaxDB Configuration Guidelines for SAP Installations in Azure VMs
 #### <a name="b48cfe3b-48e9-4f5b-a783-1d29155bd573"></a>Storage configuration
 Azure storage best practices for SAP MaxDB follow the general recommendations mentioned in chapter [Storage structure of a VM for RDBMS Deployments](./dbms_guide_general.md#65fa79d6-a85f-47ee-890b-22e794f51a64).
