@@ -452,7 +452,7 @@ It is important to try to use guiding questions that will help to find the crux 
 - - If the issue is intermittent, what are the specific times that the issue occurs and what actions are being performed
 - - Is the issue currently present in the system
 - - Is the issue reproduceable
--  -What is the frequency of the occurrence
+- - What is the frequency of the occurrence
 4. Are there any SQL statements captured as part of the analysis
 5. Has anything changed before the first occurrence (patching SAP or DB or OS, new functionality introduced, HW change, etc.)
 6. What is the exact Oracle software and client versions and OS version for SAP Application connected
