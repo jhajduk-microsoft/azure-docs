@@ -435,7 +435,7 @@ The disk selection for hosting Oracle's online redo logs should be driven by IOP
  [2823030 - Oracle on MS WINDOWS Large Pages](https://launchpad.support.sap.com/#/notes/2823030)
 
 ### Oracle Performance Tuning
-What follows is a number of useful scripts for troubleshooting SAP on Oracle deployments. The scripts are ready-to-use SQL statements needed for Oracle performance issue analysis in an efficient manner. These scripts were cerated to be used for those with even a limited knowledge about Oracle performance analysis to systematically show where an issue an issue may be in the system. The data can be collected by people in a number of roles including cloud architects, support engineering, and those roles involved in escalation. We will cover the following sections:
+What follows is a number of useful scripts for troubleshooting SAP on Oracle deployments. The scripts are ready-to-use SQL statements needed for Oracle performance issue analysis in an efficient manner. These scripts were cerated to be used for those with even a limited knowledge about Oracle performance analysis to systematically show where an issue an issue may be in the system. The data can be collected by people in a number of roles including cloud architects, support engineering, and those roles involved in escalation. We will cover the following topics:
 
 - Guiding questions for troubleshooting the SAP on Oracle deployments
 - SQL statements for various issues
@@ -449,10 +449,10 @@ It is important to try to use guiding questions that will help to find the crux 
 1. What is the time of first occurrence
 2. What is the time of the last occurrence
 3. Is the issue chronic or intermittent
-- If the issue is intermittent, what are the specific times that the issue occurs and what actions are being performed
-- Is the issue currently present in the system
-- Is the issue reproduceable
-- What is the frequency of the occurrence
+- - If the issue is intermittent, what are the specific times that the issue occurs and what actions are being performed
+- - Is the issue currently present in the system
+- - Is the issue reproduceable
+-  -What is the frequency of the occurrence
 4. Are there any SQL statements captured as part of the analysis
 5. Has anything changed before the first occurrence (patching SAP or DB or OS, new functionality introduced, HW change, etc.)
 6. What is the exact Oracle software and client versions and OS version for SAP Application connected
